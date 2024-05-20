@@ -32,7 +32,13 @@
   "label.add-member": [
     {
       "type": 0,
-      "value": "Add member"
+      "value": "أضِف عضو"
+    }
+  ],
+  "label.add-step": [
+    {
+      "type": 0,
+      "value": "Add step"
     }
   ],
   "label.add-website": [
@@ -41,10 +47,10 @@
       "value": "إضافة موقع"
     }
   ],
-  "label.administrator": [
+  "label.admin": [
     {
       "type": 0,
-      "value": "Administrator"
+      "value": "مدير"
     }
   ],
   "label.after": [
@@ -215,6 +221,12 @@
       "value": "أُنشئت"
     }
   ],
+  "label.created-by": [
+    {
+      "type": 0,
+      "value": "أُنشئ من قبل"
+    }
+  ],
   "label.current-password": [
     {
       "type": 0,
@@ -272,7 +284,7 @@
   "label.delete-report": [
     {
       "type": 0,
-      "value": "Delete report"
+      "value": "احذف التقرير"
     }
   ],
   "label.delete-team": [
@@ -332,7 +344,7 @@
   "label.does-not-contain": [
     {
       "type": 0,
-      "value": "Does not contain"
+      "value": "لا يحتوي"
     }
   ],
   "label.domain": [
@@ -362,7 +374,7 @@
   "label.edit-member": [
     {
       "type": 0,
-      "value": "Edit member"
+      "value": "عدّل العضو"
     }
   ],
   "label.enable-share-url": [
@@ -380,7 +392,7 @@
   "label.event-data": [
     {
       "type": 0,
-      "value": "Event data"
+      "value": "تاريخ الحدث"
     }
   ],
   "label.events": [
@@ -549,6 +561,20 @@
       "value": " ساعة"
     }
   ],
+  "label.last-months": [
+    {
+      "type": 0,
+      "value": "Last "
+    },
+    {
+      "type": 1,
+      "value": "x"
+    },
+    {
+      "type": 0,
+      "value": " months"
+    }
+  ],
   "label.leave": [
     {
       "type": 0,
@@ -588,7 +614,7 @@
   "label.manage": [
     {
       "type": 0,
-      "value": "Manage"
+      "value": "التحكم"
     }
   ],
   "label.max": [
@@ -600,7 +626,7 @@
   "label.member": [
     {
       "type": 0,
-      "value": "Member"
+      "value": "عضو"
     }
   ],
   "label.members": [
@@ -630,7 +656,7 @@
   "label.my-account": [
     {
       "type": 0,
-      "value": "My account"
+      "value": "حسابي"
     }
   ],
   "label.my-websites": [
@@ -694,7 +720,7 @@
   "label.ok": [
     {
       "type": 0,
-      "value": "OK"
+      "value": "نعم"
     }
   ],
   "label.os": [
@@ -842,7 +868,7 @@
   "label.remove-member": [
     {
       "type": 0,
-      "value": "Remove member"
+      "value": "احذف عضو"
     }
   ],
   "label.reports": [
@@ -914,7 +940,7 @@
   "label.select": [
     {
       "type": 0,
-      "value": "Select"
+      "value": "اختر"
     }
   ],
   "label.select-date": [
@@ -926,7 +952,7 @@
   "label.select-role": [
     {
       "type": 0,
-      "value": "Select role"
+      "value": "حدد الدور"
     }
   ],
   "label.select-website": [
@@ -957,6 +983,12 @@
     {
       "type": 0,
       "value": "يوم واحد"
+    }
+  ],
+  "label.steps": [
+    {
+      "type": 0,
+      "value": "Steps"
     }
   ],
   "label.sum": [
@@ -1094,7 +1126,7 @@
   "label.transfer-website": [
     {
       "type": 0,
-      "value": "Transfer website"
+      "value": "انقل الموقع"
     }
   ],
   "label.true": [
@@ -1133,6 +1165,12 @@
       "value": "بدون عنوان"
     }
   ],
+  "label.update": [
+    {
+      "type": 0,
+      "value": "Update"
+    }
+  ],
   "label.url": [
     {
       "type": 0,
@@ -1161,6 +1199,18 @@
     {
       "type": 0,
       "value": "المستخدمين"
+    }
+  ],
+  "label.utm": [
+    {
+      "type": 0,
+      "value": "UTM"
+    }
+  ],
+  "label.utm-description": [
+    {
+      "type": 0,
+      "value": "Track your campaigns through UTM parameters."
     }
   ],
   "label.value": [
@@ -1193,10 +1243,22 @@
       "value": "المشاهدات"
     }
   ],
+  "label.views-per-visit": [
+    {
+      "type": 0,
+      "value": "Views per visit"
+    }
+  ],
   "label.visitors": [
     {
       "type": 0,
       "value": "الزوار"
+    }
+  ],
+  "label.visits": [
+    {
+      "type": 0,
+      "value": "Visits"
     }
   ],
   "label.website": [
@@ -1232,7 +1294,7 @@
   "message.action-confirmation": [
     {
       "type": 0,
-      "value": "Type "
+      "value": "اكتب "
     },
     {
       "type": 1,
@@ -1240,7 +1302,7 @@
     },
     {
       "type": 0,
-      "value": " in the box below to confirm."
+      "value": " في المربع أدناه للتأكيد."
     }
   ],
   "message.active-users": [
@@ -1308,7 +1370,7 @@
   "message.confirm-remove": [
     {
       "type": 0,
-      "value": "Are you sure you want to remove "
+      "value": "هل انت متأكد من حذف "
     },
     {
       "type": 1,
@@ -1336,7 +1398,7 @@
   "message.delete-team-warning": [
     {
       "type": 0,
-      "value": "Deleting a team will also delete all team websites."
+      "value": "سيؤدي حذف الفريق أيضًا إلى حذف كافة مواقع الفريق"
     }
   ],
   "message.delete-website-warning": [
@@ -1532,25 +1594,25 @@
   "message.transfer-team-website-to-user": [
     {
       "type": 0,
-      "value": "Transfer this website to your account?"
+      "value": "نقل هذا الموقع إلى حسابك؟"
     }
   ],
   "message.transfer-user-website-to-team": [
     {
       "type": 0,
-      "value": "Select the team to transfer this website to."
+      "value": "اختر الفريق الذي تريد نقل الموقع إليه."
     }
   ],
   "message.transfer-website": [
     {
       "type": 0,
-      "value": "Transfer website ownership to your account or another team."
+      "value": "نقل ملكية الموقع لحسابك أو فريق أخر."
     }
   ],
   "message.triggered-event": [
     {
       "type": 0,
-      "value": "Triggered event"
+      "value": "أُطلق الحدث"
     }
   ],
   "message.user-deleted": [
@@ -1562,7 +1624,7 @@
   "message.viewed-page": [
     {
       "type": 0,
-      "value": "Viewed page"
+      "value": "شوهدت الصفحة"
     }
   ],
   "message.visitor-log": [
@@ -1602,7 +1664,7 @@
   "message.visitors-dropped-off": [
     {
       "type": 0,
-      "value": "Visitors droppped off"
+      "value": "أنخفض عدد الزوار"
     }
   ]
 }
